@@ -1,5 +1,6 @@
 ul{
-    @media (width-min:480px) {
+    @media (width-min:480px) {  visibility: hidden;
+        opacity: 0;
     }
 
 }
