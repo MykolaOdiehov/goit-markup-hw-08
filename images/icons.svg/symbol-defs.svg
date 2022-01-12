@@ -91,5 +91,6 @@
     <symbol id="icon-Vector-1" viewBox="0 0 42 32">
       <path fill="var(--color1, #fff)" stroke="var(--color1, #fff)" stroke-width=".64" d="m6.263 15.205-.22-.21-3.307 3.132 11.651 11.114L38.864 5.89l-3.285-3.134-21.192 20.197-8.124-7.75z"/>
     </symbol>
+    <symbol id="icon-menu_24px" viewBox="0 0 48 32"><path fill="#2196f3" style="fill:var(--color1, #2196f3)" d="M0 5.333V0h48v5.333H0zm0 13.334h48v-5.333H0v5.333zM0 32h48v-5.333H0V32z"/></symbol>
   </defs>
 </svg>

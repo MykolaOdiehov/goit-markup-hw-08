@@ -1,6 +1,30 @@
-ul{
-    @media (width-min:480px) {  visibility: hidden;
-        opacity: 0;
+@media(min-width: 0px) {  
+    body{
+        background-color: #cee21c;
     }
-
+    header > ul{
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+        position: absolute;
+    }
+   
+.header__button-icon-phone{
+    width: 40px;
+}
+.heade-button__svg{
+    width: 40px;
+    height: 40px;
+}
+}
+@media(min-width: 480px) {  
+body{
+    background-color: #e21c1c;
+}
+.menu-contacts{
+    opacity: 1;
+    pointer-events: all;
+    visibility:visible;
+    
+    }
 }
