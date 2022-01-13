@@ -2,7 +2,8 @@
   body {
     background-color: #cee21c;
   }
-  header > ul {
+  .menu-contacts,
+  .menu-navigation {
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
@@ -21,7 +22,8 @@
   body {
     background-color: #e21c1c;
   }
-  .menu-contacts {
+  .menu-contacts,
+  .menu-navigation {
     opacity: 1;
     pointer-events: all;
     visibility: visible;
