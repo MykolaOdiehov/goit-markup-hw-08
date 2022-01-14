@@ -1,7 +1,36 @@
-@media(min-width: 0px) {  
-    body{
-        background-color: #cee21c;
-    }
+@media(min-width: 0px) { 
+.features-of-our-work__menu{
+    margin-left: 2%;
+    text-align: center;
+}
+.item__block{
+    background-color: #F5F4FA;
+    width: 100%;
+    padding: 15px 0px;
+    border-radius: 4px;
+}
+.item-team{
+    border: 1px solid #000;
+    align-items: center;
+}
+.our-activities{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+.item__h3{
+    padding-top:30px ;
+}
+.features-of-our-work__menu:first-child{
+padding-top: 60px;
+}
+.features-of-our-work__menu > li{
+    padding-top: 30px;
+}
+    .logo{
+        background-image: url(/images/photo-herov.jpg);
+        margin-right: auto;
+    } 
     .menu-contacts,
     .menu-navigation{
         opacity: 0;
@@ -9,9 +38,29 @@
         visibility: hidden;
         position: absolute;
     }
-   
+    .header {
+
+        & > div{
+            & > ul{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-left: 90px;
+                margin-left: auto;
+            }
+            display: flex;
+            flex-direction: row;
+        }
+        border-bottom: 1px solid #f1f1f1;
+    }
+.logo__button{
+    margin-left: 25%;
+}
 .header__button-icon-phone{
     width: 40px;
+    margin-left: auto;
+    margin-right: 23px;
+    background: #fff;
 }
 .heade-button__svg{
     width: 40px;
@@ -36,5 +85,9 @@ body{
     pointer-events: none;
     visibility: hidden;
     position: absolute;
+}
+.our-clients__menu{
+    display: flex;
+    padding-bottom: 94px;
 }
 }
