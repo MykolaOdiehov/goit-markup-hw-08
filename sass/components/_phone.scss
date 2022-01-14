@@ -16,6 +16,8 @@
 .heade-button__svg{
     width: 40px;
     height: 40px;
+    margin-left: auto;
+    fill: black;
 }
 }
 @media(min-width: 480px) {  
@@ -27,6 +29,12 @@ body{
         opacity: 1;
         pointer-events: all;
         visibility: visible;
-        
-    }
+        position:sticky;
+}
+.heade-button__svg{
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    position: absolute;
+}
 }
