@@ -4,6 +4,23 @@
     margin-left: 2%;
     text-align: center;
 }
+.logo {
+    &__text{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 42px;
+        /* or 162% */
+        
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase; 
+        
+    }
+    background-image: url('/images/photo-herov.jpg');
+    background-size:auto;
+} 
 .item__block{
     background-color: #F5F4FA;
     width: 100%;
@@ -19,13 +36,58 @@ margin-bottom: 30px;
 
 }
 .our-clients__menu{
-    display: flex;
+    
     position: relative;
 }
-
+.item-our-clients{
+    display: inline-block;
+    border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+margin: 30px auto;
+}
 .leveling-box{
-    width: 450px;
+    width: 100%;
     height: max-content;
+}
+.modal{
+    &-winter{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(33, 150, 243, 0.9);
+        letter-spacing: 0.03em;
+        transform: translateY(100%);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: max-content;
+    width: max-content;
+    
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+.webstudio-footor{
+    margin:  0px auto;
+}
+.backdrop.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transition: 250ms;
+}
+.container-for-svg-in-footor{
+    display: flex;
+    margin:  0px 20%;
+}
+.footer{
+    background: #2F303A;
+    text-align: center;
 }
 .item-team__h3{
     padding: 0px 25%;
@@ -56,10 +118,7 @@ padding-top: 60px;
 .features-of-our-work__menu > li{
     padding-top: 30px;
 }
-    .logo{
-        background-image: url(/images/photo-herov.jpg);
-        margin-right: auto;
-    } 
+    
     .menu-contacts,
     .menu-navigation{
         opacity: 0;
@@ -99,24 +158,160 @@ padding-top: 60px;
 }
 }
 @media(min-width: 480px) {  
-body{
-    background-color: #e21c1c;
-}
-.menu-contacts,
-.menu-navigation{
-        opacity: 1;
-        pointer-events: all;
-        visibility: visible;
-        position:sticky;
-}
-.heade-button__svg{
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
-    position: absolute;
-}
-.our-clients__menu{
-    display: flex;
-    padding-bottom: 94px;
-}
+    .features-of-our-work__menu{
+        margin-left: 2%;
+        text-align: center;
+    }
+    .logo {
+        &__text{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 42px;
+            /* or 162% */
+            
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase; 
+            
+        }
+        background-image: url('/images/Header\ img_logo-phone.jpg');
+        background-size: contain;
+    } 
+    .item__block{
+        background-color: #F5F4FA;
+        width: 100%;
+        padding: 15px 0px;
+        border-radius: 4px;
+    }
+    .item-team{
+        width: 100%;
+        background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-bottom: 30px;
+    
+    }
+    .our-clients__menu{
+        
+        position: relative;
+    }
+    .item-our-clients{
+        display: inline-block;
+        border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 30px auto;
+    }
+    .leveling-box{
+        width: 100%;
+        height: max-content;
+    }
+    .modal{
+        &-winter{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(33, 150, 243, 0.9);
+            letter-spacing: 0.03em;
+            transform: translateY(100%);
+            transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: max-content;
+        width: max-content;
+        
+        background-color: #fff;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+    }
+    .webstudio-footor{
+        margin:  0px auto;
+    }
+    .backdrop.is-hidden{
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+        transition: 250ms;
+    }
+    .container-for-svg-in-footor{
+        display: flex;
+        margin:  0px 20%;
+    }
+    .footer{
+        background: #2F303A;
+        text-align: center;
+    }
+    .item-team__h3{
+        padding: 0px 25%;
+        text-align: center;
+    }
+    .team__menu{
+    padding: 0px 15px;
+    }
+    .team__menu > img{
+        width: 450px;
+    height: 460px;
+        }
+    .item-team{
+        border: 1px solid #000;
+    
+    }
+    .our-activities{
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+    }
+    .item__h3{
+        padding-top:30px ;
+    }
+    .features-of-our-work__menu:first-child{
+    padding-top: 60px;
+    }
+    .features-of-our-work__menu > li{
+        padding-top: 30px;
+    }
+        
+        .menu-contacts,
+        .menu-navigation{
+            opacity: 0;
+            pointer-events: none;
+            visibility: hidden;
+            position: absolute;
+        }
+        .header {
+    
+            & > div{
+                & > ul{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-left: 90px;
+                    margin-left: auto;
+                }
+                display: flex;
+                flex-direction: row;
+            }
+            border-bottom: 1px solid #f1f1f1;
+        }
+    .logo__button{
+        margin-left: 25%;
+    }
+    .header__button-icon-phone{
+        width: 40px;
+        margin-left: auto;
+        margin-right: 23px;
+        background: #fff;
+    }
+    .heade-button__svg{
+        width: 40px;
+        height: 40px;
+        margin-left: auto;
+        fill: black;
+    }
 }
