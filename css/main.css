@@ -102,11 +102,26 @@
     -webkit-transition: 250ms;
     transition: 250ms;
   }
+  .box-in-footer-two {
+    margin-top: 60px;
+  }
+  .svg-in-footer-in-container {
+    height: 44px;
+    width: 44px;
+    background: #44454E;
+    border-radius: 360px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .svg-photo-in-footer {
+    height: 20px;
+    width: 20px;
+    margin: 12px 12px;
+    fill: #fff;
+    cursor: pointer;
+  }
   .container-for-svg-in-footor {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 0px 20%;
+    display: flexbox;
   }
   .footer {
     background: #2F303A;
@@ -270,12 +285,6 @@
     visibility: hidden;
     -webkit-transition: 250ms;
     transition: 250ms;
-  }
-  .container-for-svg-in-footor {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 0px 20%;
   }
   .footer {
     background: #2F303A;

@@ -91,9 +91,30 @@ margin: 30px 0px 30px 30px;
     visibility: hidden;
     transition: 250ms;
 }
+.box-in-footer-two{
+    margin-top: 60px;
+}
 .container-for-svg-in-footor{
-    display: flex;
-    margin:  0px 20%;
+    
+}
+.svg-in-footer-in-container{
+    height: 44px;
+    width: 44px;
+    background: #44454E;
+    border-radius: 360px;
+    cursor: pointer;
+    display: inline-block;
+}
+.svg-photo-in-footer{
+    height: 20px;
+    width: 20px;
+    margin: 12px 12px;
+    fill: #fff;
+    cursor: pointer;
+    }
+.container-for-svg-in-footor{
+    
+    display: flexbox;
 }
 .footer{
     background: #2F303A;
@@ -241,10 +262,7 @@ padding-top: 60px;
         visibility: hidden;
         transition: 250ms;
     }
-    .container-for-svg-in-footor{
-        display: flex;
-        margin:  0px 20%;
-    }
+
     .footer{
         background: #2F303A;
         text-align: center;
