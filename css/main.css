@@ -17,8 +17,21 @@
     border-radius: 0px 0px 4px 4px;
     margin-bottom: 30px;
   }
+  .our-clients__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+  .leveling-box {
+    width: 450px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
   .item-team__h3 {
-    padding: auto 0;
+    padding: 0px 25%;
+    text-align: center;
   }
   .team__menu {
     padding: 0px 15px;
