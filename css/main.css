@@ -10,10 +10,25 @@
     border-radius: 4px;
   }
   .item-team {
+    width: 100%;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-bottom: 30px;
+  }
+  .item-team__h3 {
+    padding: auto 0;
+  }
+  .team__menu {
+    padding: 0px 15px;
+  }
+  .team__menu > img {
+    width: 450px;
+    height: 460px;
+  }
+  .item-team {
     border: 1px solid #000;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   .our-activities {
     opacity: 0;
@@ -302,6 +317,12 @@ button {
 
 /*@import './components/location-object';*/
 /*header*/
+img {
+  width: 100%;
+  height: auto;
+  margin-bottom: auto;
+}
+
 .menu__svg-email {
   width: 16px;
   height: 12px;
