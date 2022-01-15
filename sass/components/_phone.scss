@@ -18,8 +18,9 @@
         text-transform: uppercase; 
         
     }
+    height: 400px;
     background-image: url('/images/photo-herov.jpg');
-    background-size:auto;
+    background-size:contain;
 } 
 .item__block{
     background-color: #F5F4FA;
@@ -39,12 +40,21 @@ margin-bottom: 30px;
     
     position: relative;
 }
+.input-for-subscribing{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+width: 90%;
+height: 50px;
+background-color: rgba(0, 0, 0, 0);
+}
 .item-our-clients{
     display: inline-block;
     border: 1px solid #AFB1B8;
 box-sizing: border-box;
 border-radius: 4px;
-margin: 30px auto;
+margin: 30px 0px 30px 30px;
 }
 .leveling-box{
     width: 100%;
@@ -141,9 +151,7 @@ padding-top: 60px;
         }
         border-bottom: 1px solid #f1f1f1;
     }
-.logo__button{
-    margin-left: 25%;
-}
+
 .header__button-icon-phone{
     width: 40px;
     margin-left: auto;
@@ -197,13 +205,7 @@ padding-top: 60px;
         
         position: relative;
     }
-    .item-our-clients{
-        display: inline-block;
-        border: 1px solid #AFB1B8;
-    box-sizing: border-box;
-    border-radius: 4px;
-    margin: 30px auto;
-    }
+    
     .leveling-box{
         width: 100%;
         height: max-content;
@@ -300,7 +302,7 @@ padding-top: 60px;
             border-bottom: 1px solid #f1f1f1;
         }
     .logo__button{
-        margin-left: 25%;
+        margin: 25% 30%  ;
     }
     .header__button-icon-phone{
         width: 40px;
