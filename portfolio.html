@@ -3,7 +3,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="stylesheet" href="./css/reset.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,13 +17,13 @@
         <a class="header__link"><span class="header__text"> Web</span>Studio</a>
         
         <ul class="menu-navigation">
-          <li><a click class="menu__link " href ="./index.html">Студия</a></li>
+          <li><a   class="menu__link " href ="#">Студия</a></li>
           <li>
-            <a click class="menu__link " href="#">Портфолио</a>
+            <a   class="menu__link " href="./portfolio.html">Портфолио</a>
           </li>
           <li><a class="menu__link " href="#">Контакты</a></li>
         </ul>
-      
+      <button class="header__button-icon-phone" data-modal-phone-open ><svg class="heade-button__svg"><use href="./images/icons.svg/symbol-defs.svg#icon-menu_24px"></use></svg></button>
         <ul class="menu-contacts">
           <li class="menu__item-contact">
             <svg class="menu__svg-email">
@@ -73,7 +73,8 @@
                 </li>
                 <li class="buy-product_list">
                   <div class="photo-buy-product_list" >
-                    <img   src="./images/Постер-new-orlean-vs-golden-star.jpg" height="295" width="370" alt="">
+                    <img srcset="./images/Постер-new-orlean-vs-golden-star.jpg 1x,
+                    "  src="./images/Постер-new-orlean-vs-golden-star.jpg" height="295" width="370" alt="">
                     <div class="modal-winter">
                       <p>...</p>
                     </div></div>
@@ -233,5 +234,27 @@
         
         </div>
     </footer>
+    <div class="backdrop-phone is-hidden-phone"data-modal-phone >
+      <div class="backdrop-phone__div-close" data-modal-phone-close >
+        <svg class="close"  > <use  href="./images/icons.svg/symbol-defs.svg#icon-close-black-18dp-2-1"></use> </svg>
+       
+      </div>
+      <a rel="stylesheet" href="#">
+      <p class=" backdrop-phone-link__p">Студия</p>
+    </a>
+    <a rel="stylesheet" href="./portfolio.html">
+      <p class=" backdrop-phone-link__p">Портфолио</p>
+    </a>
+
+    <a rel="stylesheet" href="#">
+      <p class=" backdrop-phone-link__p">Контакты</p>
+    </a>
+    <ul>
+      <li> <a href="tel:+380991111111" class="link-phone">+38 096 111 11 11</a></li>
+      <li><a href="mail:info@devstudio.com" class="link-email">info@devstudio.com</a></li>
+    </ul>
+     
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>

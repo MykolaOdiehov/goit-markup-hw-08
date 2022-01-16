@@ -1,0 +1,484 @@
+@media(min-width: 768px) {
+    .all-button-in-portfolio{
+        width: 450px;
+        height: max-content;
+        display: inline-flex;
+    }
+    .button-fultor{
+    display: flex;
+    }
+        .checkbox-in-modal{
+            display: flex;
+            
+            padding-left: 12px;
+            padding-top: 20px;
+            }
+            .svg-photo-in-form-labal{
+                margin: auto auto;
+                height: 16px;
+                width: 15px;
+               
+             }
+        .input{
+            appearance: none;
+            position:absolute;
+            border: none;
+            width: 358px;
+            height: 50px;
+           
+            box-sizing: border-box;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+            border-radius: 4px;
+        }
+        .coment-in-modal{
+            height: 120px;
+            resize: none;
+            font-family: Roboto;
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: 4px;
+            padding-top: 12px;
+            padding-left: 16px;
+            }
+            .buttom-in-form{
+                width: 200px;
+                height: 50px;
+                background: #2196F3;
+                box-shadow: 0px 4px 4px rgba(143, 133, 133, 0.15);
+                border-radius: 4px;
+            }
+        a{
+            text-decoration: none;
+            color:#212121;
+        }
+        .link-phone{
+            font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    /* identical to box height */
+    
+    letter-spacing: 0.02em;
+    
+    color: #2196F3;
+    
+        }
+        .link-email{
+            font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    
+    color: #757575;
+    
+    
+        }
+        .backdrop-phone__div-close{
+            width: 40px;
+            height: 40px;
+           margin-top: 10px;
+           margin-right: 15px;
+            margin-left: auto;
+            top: 10px;
+        }
+    .backdrop-phone-link__p{
+    
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    letter-spacing: 0.02em;
+    }
+        .close{
+            width: 40px;
+            height: 40px;
+        }
+    .features-of-our-work__menu{
+        margin-left: 2%;
+        text-align: center;
+    }
+    .logo {
+        &__text{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 42px;
+            /* or 162% */
+            
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase; 
+            
+        }
+        height: 400px;
+        background-image: url('/images/photo-herov.jpg');
+        background-size:contain;
+    } 
+    .item__block{
+        background-color: #F5F4FA;
+        width: 100%;
+        padding: 15px 0px;
+        border-radius: 4px;
+    }
+    .item-team{
+        width: 100%;
+        background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-bottom: 30px;
+    
+    }
+    .our-clients__menu{
+        
+        position: relative;
+    }
+    .input-for-subscribing{
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width: 90%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    }
+    .item-our-clients{
+        display: inline-block;
+        border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 30px 0px 30px 30px;
+    }
+    .leveling-box{
+        width: 100%;
+        height: max-content;
+    }
+    .modal{
+        &-winter{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(33, 150, 243, 0.9);
+            letter-spacing: 0.03em;
+            transform: translateY(100%);
+            transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 450px;
+    height: 609px;
+    
+        
+        background-color: #fff;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+    }
+    .webstudio-footor{
+        margin:  0px auto;
+    }
+    .backdrop.is-hidden{
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+        transition: 250ms;
+    }
+    .modal{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .div-in-form-modal{
+        padding-bottom: 10px;
+    }
+    .item-team__menu{
+        width: max-content;
+        margin-right:auto;
+        margin-left: auto;
+    }
+    .box-in-footer-two{
+        margin-top: 60px;
+    }
+    .backdrop-phone.is-hidden-phone{
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .backdrop-phone{
+        top: 0px;
+        left: 0px;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: rgb(255, 255, 255);
+    }
+    .backdrop-phone > ul{
+        & > li{
+            margin-bottom: 32px;
+        }
+        margin-top: 50%;
+    margin-left: 40px;
+    top: auto;
+    }
+    .svg-in-footer-in-container{
+        height: 44px;
+        width: 44px;
+        background: #44454E;
+        border-radius: 360px;
+        cursor: pointer;
+        display: inline-block;
+    }
+    .input-in-footer{
+        width: 100%;
+        height: 40px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        text-indent: 35px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        box-sizing: border-box;
+        border-radius: 4px;
+        font-family: Roboto;
+        outline: none;
+        }
+    .form-in-modal-box{
+        padding: 40px;
+    }
+    .svg-photo-in-footer{
+        height: 20px;
+        width: 20px;
+        margin: 12px 12px;
+        fill: #fff;
+        cursor: pointer;
+        }
+    .container-for-svg-in-footor{
+        
+        display: flexbox;
+    }
+    .footer{
+        background: #2F303A;
+        text-align: center;
+    }
+    .item-team__h3{
+        padding: 0px 25%;
+        text-align: center;
+    }
+    .team__menu{
+    padding: 0px 15px;
+    }
+    .team__menu > img{
+        width: 450px;
+    height: 460px;
+        }
+    .item-team{
+        border: 1px solid #000;
+    
+    }
+    .our-activities{
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+    }
+    .item__h3{
+        padding-top:30px ;
+    }
+    .features-of-our-work__menu:first-child{
+    padding-top: 60px;
+    }
+    .features-of-our-work__menu > li{
+        padding-top: 30px;
+    }
+        
+        .menu-contacts,
+        .menu-navigation{
+            opacity: 0;
+            pointer-events: none;
+            visibility: hidden;
+            position: absolute;
+        }
+        .header {
+    
+            & > div{
+                & > ul{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-left: 90px;
+                    margin-left: auto;
+                }
+                display: flex;
+                flex-direction: row;
+            }
+            border-bottom: 1px solid #f1f1f1;
+        }
+    
+    .header__button-icon-phone{
+        width: 40px;
+        margin-left: auto;
+        margin-right: 23px;
+        background: #fff;
+    }
+    .heade-button__svg{
+        width: 40px;
+        height: 40px;
+        margin-left: auto;
+        fill: black;
+    }
+    }
+    @media(min-width: 480px) {  
+        .features-of-our-work__menu{
+            margin-left: 2%;
+            text-align: center;
+        }
+        .logo {
+            &__text{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 26px;
+                line-height: 42px;
+                /* or 162% */
+                
+                text-align: center;
+                letter-spacing: 0.06em;
+                text-transform: uppercase; 
+                
+            }
+            background-image: url('/images/Header\ img_logo-phone.jpg');
+            background-size: contain;
+        } 
+        .item__block{
+            background-color: #F5F4FA;
+            width: 100%;
+            padding: 15px 0px;
+            border-radius: 4px;
+        }
+        .item-team{
+            width: 100%;
+            background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        margin-bottom: 30px;
+        
+        }
+        .our-clients__menu{
+            
+            position: relative;
+        }
+        
+        .leveling-box{
+            width: 100%;
+            height: max-content;
+        }
+        .modal{
+            &-winter{
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(33, 150, 243, 0.9);
+                letter-spacing: 0.03em;
+                transform: translateY(100%);
+                transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            }
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: max-content;
+            width: max-content;
+            
+            background-color: #fff;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+        }
+        .webstudio-footor{
+            margin:  0px auto;
+        }
+        .backdrop.is-hidden{
+            opacity: 0;
+            pointer-events: none;
+            visibility: hidden;
+            transition: 250ms;
+        }
+    
+        .footer{
+            background: #2F303A;
+            text-align: center;
+        }
+        .item-team__h3{
+            padding: 0px 25%;
+            text-align: center;
+        }
+        .team__menu{
+        padding: 0px 15px;
+        }
+        .team__menu > img{
+            width: 450px;
+        height: 460px;
+            }
+        .item-team{
+            border: 1px solid #000;
+        
+        }
+        .our-activities{
+            opacity: 0;
+            visibility: hidden;
+            position: absolute;
+        }
+        .item__h3{
+            padding-top:30px ;
+        }
+        .features-of-our-work__menu:first-child{
+        padding-top: 60px;
+        }
+        .features-of-our-work__menu > li{
+            padding-top: 30px;
+        }
+            
+            .menu-contacts,
+            .menu-navigation{
+                opacity: 0;
+                pointer-events: none;
+                visibility: hidden;
+                position: absolute;
+            }
+            .header {
+        
+                & > div{
+                    & > ul{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-left: 90px;
+                        margin-left: auto;
+                    }
+                    display: flex;
+                    flex-direction: row;
+                }
+                border-bottom: 1px solid #f1f1f1;
+            }
+        .logo__button{
+            margin: 25% 30%  ;
+        }
+        .header__button-icon-phone{
+            width: 40px;
+            margin-left: auto;
+            margin-right: 23px;
+            background: #fff;
+        }
+        .heade-button__svg{
+            width: 40px;
+            height: 40px;
+            margin-left: auto;
+            fill: black;
+        }
+    }
+    
