@@ -1,4 +1,49 @@
 @media (min-width: 0px) {
+  a {
+    text-decoration: none;
+    color: #212121;
+  }
+  .link-phone {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    color: #2196F3;
+  }
+  .link-email {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #757575;
+  }
+  .backdrop-phone__div-close {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: auto;
+    top: 10px;
+  }
+  .backdrop-phone-link__p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    letter-spacing: 0.02em;
+  }
+  .close {
+    width: 40px;
+    height: 40px;
+  }
   .features-of-our-work__menu {
     margin-left: 2%;
     text-align: center;
@@ -104,6 +149,27 @@
   }
   .box-in-footer-two {
     margin-top: 60px;
+  }
+  .backdrop-phone.is-hidden-phone {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .backdrop-phone {
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: white;
+  }
+  .backdrop-phone > ul {
+    margin-top: 50%;
+    margin-left: 40px;
+    top: auto;
+  }
+  .backdrop-phone > ul > li {
+    margin-bottom: 32px;
   }
   .svg-in-footer-in-container {
     height: 44px;

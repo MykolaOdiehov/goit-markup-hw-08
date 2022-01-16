@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0 min-device-pixel-ratio min-resolution" />
     <title>Document</title>
   </head>
   <body>
@@ -23,7 +23,7 @@
           </li>
           <li><a class="menu__link " href="#">Контакты</a></li>
         </ul>
-      <button class="header__button-icon-phone" ><svg class="heade-button__svg"><use href="./images/icons.svg/symbol-defs.svg#icon-menu_24px"></use></svg></button>
+      <button class="header__button-icon-phone" data-modal-phone-open ><svg class="heade-button__svg"><use href="./images/icons.svg/symbol-defs.svg#icon-menu_24px"></use></svg></button>
         <ul class="menu-contacts">
           <li class="menu__item-contact">
             <svg class="menu__svg-email">
@@ -517,6 +517,30 @@
 
 
 
+</div>
+
+
+    </div>
+    <div class="backdrop-phone is-hidden-phone"data-modal-phone >
+      <div class="backdrop-phone__div-close" data-modal-phone-close >
+        <svg class="close"  > <use  href="./images/icons.svg/symbol-defs.svg#icon-close-black-18dp-2-1"></use> </svg>
+       
+      </div>
+      <a rel="stylesheet" href="#">
+      <p class=" backdrop-phone-link__p">Студия</p>
+    </a>
+    <a rel="stylesheet" href="./portfolio.html">
+      <p class=" backdrop-phone-link__p">Портфолио</p>
+    </a>
+
+    <a rel="stylesheet" href="#">
+      <p class=" backdrop-phone-link__p">Контакты</p>
+    </a>
+    <ul>
+      <li> <a href="tel:+380991111111" class="link-phone">+38 096 111 11 11</a></li>
+      <li><a href="mail:info@devstudio.com" class="link-email">info@devstudio.com</a></li>
+    </ul>
+     
     </div>
     <script src="./js/modal.js"></script>
   </body>
