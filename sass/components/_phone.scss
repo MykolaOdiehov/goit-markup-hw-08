@@ -1,8 +1,4 @@
-@media(min-width: 800px){
-    body{
-        background-color: orange;
-    }
-}
+
 @media(min-width: 0px) {
 .all-button-in-portfolio{
     width:100%;
@@ -173,7 +169,7 @@ fill: #2196F3;
     }
     height: 400px;
     background-image: url('/images/photo-herov.jpg');
-    background-size:contain;
+    background-size:cover;
 } 
 .item__block{
     background-color: #F5F4FA;
