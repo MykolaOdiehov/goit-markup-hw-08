@@ -293,10 +293,19 @@ height: 460px;
     border: 1px solid #000;
 
 }
-.our-activities{
+.our-activities > h2{
     opacity: 0;
     visibility: hidden;
     position: absolute;
+    width: 0px;
+
+}
+.our-activities > div{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    width: 0px;
+
 }
 .item__h3{
     padding-top:30px ;
@@ -444,6 +453,8 @@ padding-top: 60px;
         opacity: 0;
         visibility: hidden;
         position: absolute;
+        width: 1px;
+        height: 1px;
     }
     .item__h3{
         padding-top:30px ;
