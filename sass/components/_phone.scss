@@ -204,11 +204,12 @@ height: 609px;
     width: max-content;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 60px;
 }
 .webstudio-footor{
     margin-left: auto;
     margin-right: auto;
-    width: max-content;
+    width: 300px;
 }
 .backdrop.is-hidden{
     opacity: 0;
@@ -283,7 +284,7 @@ top: auto;
     cursor: pointer;
     }
 .container-for-svg-in-footor{
-    
+    padding-top: 20px;
     display: flexbox;
 }
 .footer{
@@ -328,7 +329,9 @@ padding-top: 60px;
 .features-of-our-work__menu > li{
     padding-top: 30px;
 }
-    
+    .div-for-input-for-subscribing{
+        margin-top: 60px;
+    }
     .menu-contacts,
     .menu-navigation{
         opacity: 0;
@@ -451,8 +454,23 @@ padding-top: 60px;
     .webstudio-footor{
         margin-left: auto;
         margin-right: auto;
-        width: max-content;
+        width: 260px;
     }
+.menu__link-in-footer-adres{
+    margin-right: auto;
+    margin-left: auto;
+}
+.box-in-footer-one{
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 60px;
+    
+}
+.menu__link-in-footer{
+    margin-right: auto;
+    margin-left: auto;
+}
     .team__menu{
     padding: 0px 15px;
     }
@@ -518,8 +536,8 @@ padding-top: 60px;
     }
     .footer-text{
         width: max-content;
-        margin-left: auto;
-        padding-right: 1000px;
+        padding-left: auto;
+        padding-right:auto;
     }
     .box-in-footer-one{
     width: max-content;
