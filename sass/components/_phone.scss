@@ -1,3 +1,8 @@
+@media(min-width: 800px){
+    body{
+        background-color: orange;
+    }
+}
 @media(min-width: 0px) {
 .all-button-in-portfolio{
     width: 450px;
@@ -195,8 +200,15 @@ height: 609px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
+.footer-text{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
 .webstudio-footor{
-    margin:  0px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
 }
 .backdrop.is-hidden{
     opacity: 0;
@@ -420,9 +432,7 @@ padding-top: 60px;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 4px;
     }
-    .webstudio-footor{
-        margin:  0px auto;
-    }
+   
     .backdrop.is-hidden{
         opacity: 0;
         pointer-events: none;
@@ -437,6 +447,11 @@ padding-top: 60px;
     .item-team__h3{
         padding: 0px 25%;
         text-align: center;
+    }
+    .webstudio-footor{
+        margin-left: auto;
+        margin-right: auto;
+        width: max-content;
     }
     .team__menu{
     padding: 0px 15px;
@@ -500,6 +515,14 @@ padding-top: 60px;
         height: 40px;
         margin-left: auto;
         fill: black;
+    }
+    .footer-text{
+        width: max-content;
+        margin-left: auto;
+        padding-right: 1000px;
+    }
+    .box-in-footer-one{
+    width: max-content;
     }
 }
 @media(min-width: 768px){
