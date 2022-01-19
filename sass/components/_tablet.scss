@@ -1,9 +1,69 @@
 @media(min-width: 768px) {
 .logo{
+    background-repeat: no-repeat;
     background-image: url(/images/photo-herov-tablet.jpg);
+   
+    background-size: contain;
 }
 .menu-navigation{
-    display: block;
+    flex-direction: column;   
 }
+
+.features-of-our-work__menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.features-of-our-work__menu > li{
+    width: 354px;
+    height: 251px;
+}
+.item__block{
+    width: 354px;
+height: 120px;
+}
+.item-team{
+    width: 354px;
+height: 536px;
+margin-left: 10px;
+}
+.team__menu{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.team{
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
     

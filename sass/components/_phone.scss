@@ -331,10 +331,7 @@ padding: 0px 15px;
     width: 450px;
 height: 460px;
     }
-.item-team{
-    border: 1px solid #000;
 
-}
 .our-activities > h2{
     opacity: 0;
     visibility: hidden;
@@ -417,7 +414,8 @@ padding-top: 60px;
             
         }
         background-image: url('/images/Header\ img_logo-phone.jpg');
-        background-size: contain;
+        background-repeat: no-repeat;
+        height: auto;
     } 
     .item__block{
         background-color: #F5F4FA;
@@ -507,10 +505,7 @@ padding-top: 60px;
         width: 450px;
     height: 460px;
         }
-    .item-team{
-        border: 1px solid #000;
     
-    }
     .our-activities{
         opacity: 0;
         visibility: hidden;

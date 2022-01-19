@@ -347,9 +347,6 @@
     width: 450px;
     height: 460px;
   }
-  .item-team {
-    border: 1px solid #000;
-  }
   .our-activities > h2 {
     opacity: 0;
     visibility: hidden;
@@ -428,7 +425,8 @@
   }
   .logo {
     background-image: url("/images/Header img_logo-phone.jpg");
-    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
   }
   .logo__text {
     font-family: Roboto;
@@ -536,9 +534,6 @@
     width: 450px;
     height: 460px;
   }
-  .item-team {
-    border: 1px solid #000;
-  }
   .our-activities {
     opacity: 0;
     visibility: hidden;
@@ -640,6 +635,50 @@
     visibility: hidden;
     position: absolute;
     width: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo {
+    background-repeat: no-repeat;
+    background-image: url(/images/photo-herov-tablet.jpg);
+    background-size: contain;
+  }
+  .menu-navigation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .features-of-our-work__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .features-of-our-work__menu > li {
+    width: 354px;
+    height: 251px;
+  }
+  .item__block {
+    width: 354px;
+    height: 120px;
+  }
+  .item-team {
+    width: 354px;
+    height: 536px;
+    margin-left: 10px;
+  }
+  .team__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .team {
+    margin-top: 60px;
   }
 }
 
