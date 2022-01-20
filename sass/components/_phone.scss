@@ -7,7 +7,6 @@
     flex-wrap: wrap;
 
 }
-
 .all-button-in-portfolio > li{
 margin-top: 15px;
 }
@@ -55,17 +54,11 @@ display: flex;
         padding-top: 20px;
         }
         .svg-photo-in-form-labal{
-           
+            margin: auto auto;
             height: 16px;
             width: 15px;
            
          }
-         .svg-photo-in-form {
-            height: 18px;
-            width: 18px;
-            position: absolute;
-            margin: 12px -360px;
-        }
     .input{
         appearance: none;
         position:absolute;
@@ -372,7 +365,16 @@ padding-top: 60px;
         visibility: hidden;
         position: absolute;
     }
-   
+    .header {
+
+        & > div{
+            
+            display: flex;
+            flex-direction: row;
+        }
+        border-bottom: 1px solid #f1f1f1;
+    }
+
 .header__button-icon-phone{
     width: 40px;
     margin-left: auto;
@@ -522,7 +524,7 @@ padding-top: 60px;
             visibility: hidden;
             position: absolute;
         }
-       
+        
    
     .header__button-icon-phone{
         width: 40px;
