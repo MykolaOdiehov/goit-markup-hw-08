@@ -223,11 +223,14 @@
                 padding-top: 94px;
                 background: #F5F4FA;;
             }
+            .item-team:not(:first-child){
+                margin-left: 15px;
+            }
             .menu__link {
                 &-in-footer-adres{
                     text-decoration: none;
                     color: #ffffff;
-                    margin-right: 50px;
+                    
                     font-family: Roboto;
                     font-weight:400;
                     font-size: 14px;
