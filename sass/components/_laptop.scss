@@ -1,7 +1,22 @@
 @media(min-width: 1600px){
     button{border: none;}
+.our-activities{
+    height: max-content;
+    width: max-content;
+}
+.webstudio-footor{
+    text-align: start;
+}
 
-
+.alignment-to-line{
+    display: flex;
+}
+.our-activities__menu{
+    position:sticky;
+}
+.footer{
+    display: flex;
+}
     .button-for-subscrib{
         display: inline;
         background: #2196F3;
@@ -317,6 +332,30 @@
                 height: 16px;
                 align-items: center;
             }
+            .our-activities > h2{
+                opacity: 1;
+                visibility: visible;
+                position: relative;
+                
+            
+            }
+            .item-our-activities{
+                width: 370px;
+                height: 294px;
+            }
+            .our-activities{
+                opacity: 1;
+                visibility: visible;
+                position: relative;
+               
+            }
+            .our-activities > div{
+                opacity: 1;
+                visibility: visible;
+                position: relative;
+              
+            
+            }
             .item{
                 &-our-clients{
                     &__svg-photo{
@@ -587,7 +626,7 @@
      /*header*/
 
 .header__link{
-    font-family:$other-text;
+  
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -600,14 +639,14 @@
 .menu__link{
     position: relative;
     text-decoration: none;
-    color: $color_text;
-    font-family: $font_family;
+    
+    
     margin-right: 50px;
     font-weight: 500;
 }
 .menu__link:focus,
 .menu__link:hover{
-    color: $color-text_hover;
+      
     text-decoration: none;
 }
 .menu__link:hover::after{
@@ -624,19 +663,20 @@
     display: block;
     width: 100%;
     height: 5px;
-    background-color: $color-under-line;
+  
     border-radius: 360px;
     
     transform: scaleX(0);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu__contact{
-    font-family: $font_family;
+     
     font-style: normal;
     
     margin-right: 30px;
     text-decoration: none;
-    color: $side-text;
+   
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -648,7 +688,7 @@
 /*main*/
 /*logo*/
 .menu__contact:focus{
-    color: $color-text_hover;
+      
     text-decoration: none;
 }
 .logo__text {
@@ -671,7 +711,7 @@
     margin-bottom: 30px;
 }
 .logo__button-text{
-    font-family: $font_family;
+     
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -682,7 +722,7 @@
 }
 .item__h3 {
     margin-right: 30px;
-    font-family: $font_family;
+     
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -693,17 +733,17 @@
 }
 .item__p {
     margin-right: 30px;
-    font-family: $font_family;
+     
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: $side-text;
+     
 }
 /*our-activities*/
 .our-activities__heading,
 .team__heading{
-font-family: $font_family;
+ 
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -723,7 +763,7 @@ height: 42px
     background: rgba(47, 48, 58, 0.8);
 }
 .item-our-activities__text{
-    & > p{    font-family: $font_family;
+    & > p{     
         font-style: normal;
         font-weight: bold;
         font-size: 14px;
@@ -735,7 +775,7 @@ height: 42px
 
 }
 .item-team__h3 {
-    font-family: $font_family;
+     
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -745,19 +785,19 @@ height: 42px
 }
 .item-team__p {
 
-    font-family: $font_family;
+     
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: $side-text;
+     
     margin-bottom: 30px;
 }
 /*our-clients*/
 .our-clients__text{
-    font-family: $font_family;
+     
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -769,7 +809,7 @@ height: 42px
 }
 /*footer*/
 .footer-text {
-    font-family: $other-text ;
+ 
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -782,8 +822,8 @@ height: 42px
 .menu__link-in-footer-adres{
     text-decoration: none;
     color: #ffffff;
-    margin-right: 50px;
-    font-family: $font_family;
+   
+     
     
     font-weight:400;
     font-size: 14px;
@@ -796,7 +836,7 @@ height: 42px
     color: rgba(255, 255, 255, 0.6);
     
     margin-right: 50px;
-    font-family: $font_family;
+     
     
     font-weight:400;
     font-size: 14px;
@@ -805,15 +845,10 @@ height: 42px
     margin-bottom: 9px;
     
 }
-.menu__link-in-footer:focus{
-    color: $color-text_hover;
-}
-.menu__link-in-footer:hover{
-    color: $color-text_hover;  
-}
+
 .box-in-footer-two{
     & > h3{
-        font-family: $font_family;
+         
         font-style: normal;
         font-weight: bold;
         font-size: 14px;
@@ -826,7 +861,7 @@ height: 42px
 
 }
 .text-for-input-in-footor{
-    font-family: $font_family;
+     
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -838,39 +873,39 @@ height: 42px
     padding-top: 15px;
 }
 .h3-in-modal{
-    font-family: $font_family;
+     
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 23px;
     text-align: center;        
     letter-spacing: 0.03em;
-    color: $color_text;
+    
     margin-bottom: 12px;
 }
 .p-in-modal{
-    font-family: $font_family;
+     
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
-    color: $side-text;
+     
     padding-bottom: 4px;
 }
 .p-in-moda{
-    font-family: $font_family;
+     
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: $side-text;
+     
     padding-bottom:30px ;
 }
 .buttom-in-form{
     & > p{
-        font-family: $font_family;
+         
         font-style: normal;
         font-weight: bold;
         font-size: 16px;
@@ -884,7 +919,7 @@ height: 42px
 .modal-winter{
     & > p{
         margin:63px 24px;
-        font-family: $font_family;
+         
         color: #EEEEEE;
         font-style: normal;
         font-weight: normal;
@@ -893,18 +928,18 @@ height: 42px
     }
 }
 .photo-buy {
-    font-family: $font_family;
+     
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
-    color: $color_text;
+    
     margin-top: 20px;
     margin-left: 24px;
 }
 .photo-buy-information {
-    font-family: $font_family;
+    
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -914,6 +949,6 @@ height: 42px
     margin-bottom: 20px;
     letter-spacing: 0.03em;
     
-    color: $side-text;
+     
 }
 }

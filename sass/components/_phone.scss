@@ -1,5 +1,5 @@
 
-@media(min-width: 0px) {
+@media(min-width: 0px) and (min-width: 768px) {
 .all-button-in-portfolio{
     width:100%;
     height: max-content;
@@ -332,20 +332,7 @@ padding: 0px 15px;
 height: 460px;
     }
 
-.our-activities > h2{
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    width: 0px;
 
-}
-.our-activities > div{
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    width: 0px;
-
-}
 .item__h3{
     padding-top:30px ;
 }

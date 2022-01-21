@@ -1,9 +1,9 @@
-@media(min-width: 768px) {
+@media(min-width: 767px) and (max-width:1023) {
 .logo{
-    background-repeat: no-repeat;
+    
     background-image: url(/images/photo-herov-tablet.jpg);
    
-    background-size: contain;
+   
 }
 .menu-navigation{
     flex-direction: column;   
@@ -49,6 +49,10 @@
 .menu-contacts{
     margin-top: 20px;
 }
+.item-team{
+    width: 270px;
+    height: 428px;
+}
 .item-our-clients{
     width: 226px;
 height: 92px;
@@ -83,16 +87,13 @@ margin-top: 10px;
 .features-of-our-work__menu > li{
     width: 354px;
     height: 251px;
+    margin-left: 30px;
 }
 .item__block{
     width: 354px;
 height: 120px;
 }
-.item-team{
-    width: 354px;
-height: 536px;
-margin-left: 10px;
-}
+
 .team__menu{
     display: flex;
     flex-wrap: wrap;
@@ -101,10 +102,7 @@ margin-left: 10px;
 .team{
     margin-top: 60px;
 }
-.header {
-    
-   
-}
+
 
 
 
