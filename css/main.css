@@ -1001,6 +1001,9 @@
     text-align: center;
     padding: 200px 0;
     background: url(../images/photo-herov.jpg);
+    width: 1600px;
+    height: 600px;
+    background-repeat: no-repeat;
   }
   .buy-product {
     display: -webkit-box;
@@ -1471,9 +1474,11 @@
     font-size: 44px;
     line-height: 60px;
     /* or 136% */
+    margin-top: 20px;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    padding-top: 0px;
   }
   .logo__text {
     margin: 0 auto;
