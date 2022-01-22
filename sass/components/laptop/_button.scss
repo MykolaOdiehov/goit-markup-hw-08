@@ -16,7 +16,10 @@ button{border: none;}
 }
 
 .header__button-icon-phone{
-    display: none;
+    position: absolute;
+    visibility: hidden;
+    pointer-events: none;
+    opacity: 0;
     
 }
 

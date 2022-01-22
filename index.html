@@ -14,7 +14,7 @@
     
     <header class="header">
       <div class="container">
-        <a class="header__link"><span class="header__text"> Web</span>Studio</a>
+       
         
         <ul class="menu-navigation">
           <li><a   class="menu__link " href ="#">Студия</a></li>
@@ -23,7 +23,17 @@
           </li>
           <li><a class="menu__link " href="#">Контакты</a></li>
         </ul>
-      <button class="header__button-icon-phone" data-modal-phone-open ><svg class="heade-button__svg"><use href="./images/icons.svg/symbol-defs.svg#icon-menu_24px"></use></svg></button>
+        <nav class="nav">
+          <a class="header__link"><span class="header__text"> Web</span>Studio</a>
+       
+        <button type="button" class="header__button-icon-phone" data-modal-phone-open is-open >
+          
+          <svg width="40" height="40"
+          aria-label="перелючатель мобильного меню"
+          class="heade-button__svg">
+            <use class="icon-cross"  href="./images/icons.svg/symbol-defs.svg#icon-close-black-18dp-2-1"></use> 
+            <use class="icon-menu" href="./images/icons.svg/symbol-defs.svg#icon-menu_24px"></use></svg></button>
+        </nav>
         <ul class="menu-contacts">
           <li class="menu__item-contact">
             <svg class="menu__svg-email">
@@ -69,8 +79,8 @@
               </div>
               <h3 class="item__h3">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
               <p class="item__p">
-                Идейные соображения, а также <br />
-                начало повседневной работы по <br />
+                Идейные соображения, а также
+                начало повседневной работы по 
                 формированию позиции.
               </p>
             </li>
@@ -82,8 +92,8 @@
             </div>
               <h3 class="item__h3">ПУНКТУАЛЬНОСТЬ</h3>
               <p class="item__p">
-                Задача организации, в особенности <br />
-                же рамки и место обучения кадров <br />
+                Задача организации, в особенности  
+                же рамки и место обучения кадров  
                 влечет за собой.
               </p>
             </li>
@@ -95,8 +105,8 @@
             </div>
               <h3 class="item__h3">ПЛАНИРОВАНИЕ</h3>
               <p class="item__p">
-                Равным образом консультация с <br />
-                широким активом в значительной <br />
+                Равным образом консультация с  
+                широким активом в значительной  
                 степени обуславливает.
               </p>
             </li>
@@ -108,8 +118,8 @@
             </div>
               <h3 class="item__h3">СОВРЕМЕНЫЕ ТЕХНОЛОГИИ</h3>
               <p class="item__p">
-                Значимость этих проблем настолько <br />
-                очевидна, что реализация плановых <br />
+                Значимость этих проблем настолько  
+                очевидна, что реализация плановых  
                 заданий.
               </p>
             </li>
@@ -166,8 +176,7 @@
               ./images/игорь_демьяненко@2x.jpg 2x,
               ./images/игорь_демьяненко@3x.jpg 3x"
                 
-                width="270"
-                height="270"
+                 class="photo"
                 alt=" ИД"
               />
               <h3 class="item-team__h3">Игорь Демьяненко</h3>
@@ -209,8 +218,7 @@
               ./images/ольга_репина@2x.jpg 2x,
               ./images/ольга_репина@3x.jpg 3x"
                 src="./images/ольга_репина.jpg"
-                width="270"
-                height="270"
+                 class="photo"
                 alt="ОР"
               />
               <h3 class="item-team__h3">Ольга Репина</h3>
@@ -252,8 +260,7 @@
               ./images/николай_тарасов@2x.jpg 2x,
               ./images/николай_тарасов@3x.jpg 3x"
                 src="./images/николай_тарасов.jpg"
-                width="270"
-                height="270"
+                class="photo"
                 alt="НТ"
               />
               <h3 class="item-team__h3">Николай Тарасов</h3>
@@ -295,8 +302,7 @@
               ./images/михаил_ермаков@2x.jpg 2x,
               ./images/михаил_ермаков@3x.jpg 3x"
                 src="./images/михаил_ермаков.jpg"
-                width="270"
-                height="270"
+                 class="photo"
                 alt="МЕ"
               />
               <h3 class="item-team__h3">Михаил Ермаков</h3>
@@ -456,12 +462,12 @@
           <form>
             <div class="div-for-input-for-subscribing">
               <p class="text-for-input-in-footor">Подпишитесь на рассылку</p>
-              <div class="d1">
+              
               <input type="email" placeholder="E-mail"  class="input-for-subscribing">
               <button class="button-for-subscrib"><p class="text-for-subscrib">Подписаться</p> <svg class="svg-photo-for-subcrib">
                 <use href="./images/icons.svg/symbol-defs.svg#icon-telegram"></use></svg> 
               </button>
-            </div>
+            
             </div>
           </div>
            </form>
