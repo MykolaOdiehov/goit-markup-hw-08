@@ -1,6 +1,5 @@
 /*header*/
-
-.menu{
+/* .menu{
 &__svg-email{
     width:16px ;
     height: 12px;
@@ -42,7 +41,10 @@
     margin:16px 32px ;
 }
 }
-
+.our-clients__menu{
+    display: flex;
+    padding-bottom: 94px;
+}
 .svg{
 &-in-footer-in-container:not(:first-child){margin-left: 10px;}
 &-photo-in-footer{
@@ -59,7 +61,12 @@
     margin-top: 0px;
     display: inline;
 }
-
+&-photo-in-form{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin: 12px -430px;
+}
 }
 .kerstic{
     height: 18px;
@@ -80,4 +87,4 @@
     height: 15px;
     border-color:#2196F3 ;
     background-color: #2196F3;
- }
+ } */

@@ -65,7 +65,17 @@
     color: $color-text_hover;
     text-decoration: none;
 }
-
+.logo__text {
+    font-family: $font_family;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-left: 452px;
+}
 .logo__text {
     margin: 0 auto;
     max-width: 650px;
@@ -184,7 +194,7 @@ height: 42px
 .menu__link-in-footer-adres{
     text-decoration: none;
     color: #ffffff;
-    
+    margin-right: 50px;
     font-family: $font_family;
     
     font-weight:400;
@@ -197,7 +207,7 @@ height: 42px
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
     
-    
+    margin-right: 50px;
     font-family: $font_family;
     
     font-weight:400;
