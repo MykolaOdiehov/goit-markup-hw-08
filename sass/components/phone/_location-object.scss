@@ -9,8 +9,18 @@ p{
 .backdrop-phone{
     display: none;
 }
+.item-our-activities > img{
+    width: 100%;
+}
+.our-activities__heading{
+    width: 0px;
+    position: absolute;
+}
+.our-activities{
+    width: 0px;
+}
 .our-clients__menu{
-    width: 400px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin-left: auto;

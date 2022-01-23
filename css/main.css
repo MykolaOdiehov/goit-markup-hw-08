@@ -171,8 +171,18 @@
   .backdrop-phone {
     display: none;
   }
+  .item-our-activities > img {
+    width: 100%;
+  }
+  .our-activities__heading {
+    width: 0px;
+    position: absolute;
+  }
+  .our-activities {
+    width: 0px;
+  }
   .our-clients__menu {
-    width: 400px;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -375,8 +385,7 @@
     background: #FFFFFF;
   }
   .photo {
-    width: 450px;
-    height: 460px;
+    width: 100%;
   }
   .icon {
     border: 2px solid #2a2a2a;
