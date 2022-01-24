@@ -20,6 +20,9 @@ p{
     margin-right: auto;
     width: max-content;
 }
+.our-activities__heading{
+    display: none;
+}
 .item-our-activities > img{
     width: 100%;
 }
@@ -88,7 +91,9 @@ display: none;
     display: flex;
      border-bottom: 2px solid black ;
  }
-
+.header__link2{
+    display:none ;
+}
  .header .nav{
      display: flex;
      align-items: center;
@@ -97,13 +102,19 @@ display: none;
      
  
  }
+ .webstudio-footor{
+     margin-left: auto;
+     width: max-content;
+    
+ }
+
  .header__button-icon-phone{
      display: inline-flex;
      margin: 0;
      padding: 0;
      border: none;
      background-color: transparent;
-     
+
  }
  
  .header__button-icon-phone .icon-cross{
@@ -121,10 +132,21 @@ display: none;
      font-weight: bold;
      font-size: 26px;
      
+     
+ }
+ .item-our-clients{
+    
  }
  .container-for-svg-in-footor{
      display: flex;
      margin-left: auto;
+     width: max-content;
+     margin-right: auto;
+ }
+ .text-for-input-in-footor{
+     width: max-content;
+     margin-left: auto;
+     margin-right: auto;
  }
  
  .input-for-subscribing{

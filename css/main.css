@@ -184,6 +184,9 @@
     width: -moz-max-content;
     width: max-content;
   }
+  .our-activities__heading {
+    display: none;
+  }
   .item-our-activities > img {
     width: 100%;
   }
@@ -254,6 +257,9 @@
     display: flex;
     border-bottom: 2px solid black;
   }
+  .header__link2 {
+    display: none;
+  }
   .header .nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -265,6 +271,12 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     min-height: 80px;
+  }
+  .webstudio-footor {
+    margin-left: auto;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
   }
   .header__button-icon-phone {
     display: -webkit-inline-box;
@@ -295,6 +307,17 @@
     display: -ms-flexbox;
     display: flex;
     margin-left: auto;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin-right: auto;
+  }
+  .text-for-input-in-footor {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
   }
   .input-for-subscribing {
     border: 1px solid #ffffff4d;
@@ -414,6 +437,7 @@
     background-color: #2196F3;
   }
   /*header*/
+  .header__link2,
   .header__link {
     font-family: Raleway;
     font-style: normal;
@@ -485,12 +509,12 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
+    font-size: 26px;
+    line-height: 42px;
+    /* or 162% */
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin-left: 452px;
   }
   .logo__text {
     margin: 0 auto;
