@@ -4,7 +4,9 @@
     flex-wrap:wrap;
     margin-top:60px;
     margin-bottom:40px;
+    margin-left: 15px;
 }
+
 .all-button-in-portfolio > li{
    margin-top: 15px;
 }
@@ -93,6 +95,7 @@
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 60px;
 }
 .features-of-our-work__menu > li{
     margin-top: 30px;
@@ -110,6 +113,7 @@ width: auto;
 }
 .logo{
     background-image: url('/images/Header img_logo-phone.jpg');
+    height: 400px;
 }
 .our-activities {
     position: absolute;
@@ -118,8 +122,12 @@ width: auto;
     opacity: 0;
 }
 .logo__button{
-    margin-left: auto;
+   bottom:2px;
    
+}
+.logo__text{
+    margin-top: 110px;
+    margin-bottom: 30px;
 }
 .item__h3{
     margin-top: 30px;
@@ -225,14 +233,24 @@ width: auto;
 }
 }
  */ .item-our-clients{
-    width: 160px;
+    width: 210px;
 
      border: 1px solid #AFB1B8;
 box-sizing: border-box;
 border-radius: 4px;
-margin: auto ;
-margin-top: 10px;
 
+margin-top: 30px;
+
+ }
+ .item-our-clients:nth-child(2n){
+ 
+
+margin-left: 30px;
+
+ }
+ .our-clients__menu{
+     margin-left: 15px;
+     width: auto;
  }
  .nav{
      width: auto;
