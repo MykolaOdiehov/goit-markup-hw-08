@@ -158,6 +158,43 @@
   .input-in-footer:not(:placeholder-shown):valid + .svg-photo-in-form {
     fill: green;
   }
+  .all-button-in-portfolio {
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  .all-button-in-portfolio > li {
+    margin-top: 15px;
+  }
+  .photo-buy {
+    text-align: center;
+  }
+  .photo-buy-product_list {
+    position: relative;
+    overflow: hidden;
+  }
+  .modal-winter > p {
+    text-align: start;
+  }
+  .modal-winter {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 150, 243, 0.9);
+    letter-spacing: 0.03em;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
   * {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -165,7 +202,17 @@
     text-align: center;
   }
   p {
-    text-align: start;
+    text-align: center;
+  }
+  .img-in-portfolio {
+    width: 100%;
+  }
+  .buy-product_list {
+    width: 100%;
+    height: 100%;
+  }
+  .sales-list {
+    margin: 15px;
   }
   .backdrop {
     display: none;
@@ -339,17 +386,6 @@
   }
   .button-in-portfolio {
     width: 450px;
-  }
-  .all-button-in-portfolio {
-    width: 100%;
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
   }
   .header {
     margin-left: auto;
