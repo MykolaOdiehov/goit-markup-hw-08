@@ -1,11 +1,11 @@
-.container{
+.header__container{
     padding-right: 15px;
     padding-left: 15px;
     margin-left: auto;
     margin-right: auto;
-    width: 320px;
-        
-    
+    @media screen and (max-width:480px){
+        width: 480px;
+    }
 
     
 }
