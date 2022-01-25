@@ -4,7 +4,22 @@ body {
     font-style: normal;
    
 }
-
+.our-activities{
+    display: none;
+    & > h2{
+        display: none;
+    }
+    & > li{
+        display: none; 
+    }
+}
+@media screen and(min-width:769px){
+    .center{
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 .nav{
     opacity: 0;
     position: absolute;
@@ -84,10 +99,21 @@ body {
     }
 
 }
+.header__button-icon-phone{
+display: none;
+}
 .logo {
     text-align: center;
     padding: 200px 0;
     background: url(../images/photo-herov.jpg);
+}
+.item-team{
+    width: 354px;
+height: 536px;
+margin-top: 30px;
+}
+.item-team:nth-child(2n){
+margin-left: auto;
 }
 .buy-product {
     &_list{
@@ -135,7 +161,14 @@ margin-top: 94px;
 .team__menu{
     display: flex;
     flex-wrap: wrap;
-    width: 600px;
+    width: auto;
+    
+}
+.item-team__menu{
+    margin-right: auto;
+    margin-left: auto;
+    width: max-content;
+   
 }
 .our-clients__menu{
     display: flex;
@@ -198,6 +231,9 @@ cursor: pointer;
 }
 .backdrop-phone{
     display: none;
+}
+.photo{
+    width: 100%;
 }
 .item{
     &-our-clients{

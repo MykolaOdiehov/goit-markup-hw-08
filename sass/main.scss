@@ -1,6 +1,6 @@
 
 @import './units/variables';
-@media (min-width:0px) and (max-width:768px){
+@media (min-width:0px) and (max-width:767px){
     @import './components/phone/button';
     @import './components/phone/hover-and-focus';
     @import './components/phone/location-object';
@@ -8,14 +8,14 @@
     @import './components/phone/text';
     @import './components/phone/modal-winter';
 }
-@media (min-width:768px)/*  and (max-width:768px) */{
+@media (min-width:768px) and (max-width:1199px){
     @import './components/tabl/button';
     @import './components/tabl/hover-and-focus';
     @import './components/tabl/location-object';
     @import './components/tabl/photo-and-svg';
     @import './components/tabl/text';
 }
-@media (min-width:769px) and (max-width:1600px){
+@media (min-width:1200px) and (max-width:1600px){
     @import './components/laptop/button';
     @import './components/laptop/hover-and-focus';
     @import './components/laptop/location-object';
