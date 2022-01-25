@@ -342,11 +342,16 @@
     margin-right: auto;
     width: 480px;
   }
+  .footer {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (min-width: 0px) and (max-width: 768px) {
   .item-our-clients {
-    width: calc(100% - 230px);
+    width: 160px;
     border: 1px solid #AFB1B8;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
