@@ -167,6 +167,16 @@ width: auto;
     margin-left: auto;
     margin-right: auto;
 }
+.button-in-portfolio{
+  width: 450px;
+}
+.all-button-in-portfolio{
+    width:100%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+
+}
 .header{
     margin-left: auto;
     margin-right: auto;

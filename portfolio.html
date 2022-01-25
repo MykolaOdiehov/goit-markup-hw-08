@@ -14,16 +14,26 @@
     
     <header class="header">
       <div class="container">
-        <a class="header__link"><span class="header__text"> Web</span>Studio</a>
+        <a class="header__link2"><span class="header__text"> Web</span>Studio</a>
         
         <ul class="menu-navigation">
-          <li><a   class="menu__link " href ="./index.html">Студия</a></li>
+          <li><a   class="menu__link " href ="#">Студия</a></li>
           <li>
-            <a   class="menu__link " href="#">Портфолио</a>
+            <a   class="menu__link " href="./portfolio.html">Портфолио</a>
           </li>
           <li><a class="menu__link " href="#">Контакты</a></li>
         </ul>
-        <button class="header__button-icon-phone" data-modal-phone-open ><svg class="heade-button__svg"><use href="./images/icons.svg/symbol-defs.svg#icon-menu_24px"></use></svg></button>
+        <div class="nav">
+          <a class="header__link"><span class="header__text"> Web</span>Studio</a>
+       
+        <button type="button" class="header__button-icon-phone" data-modal-phone-open  >
+          
+          <svg width="40" height="40"
+          aria-label="перелючатель мобильного меню"
+          class="heade-button__svg">
+            <use class="icon-cross"  href="./images/icons.svg/symbol-defs.svg#icon-close-black-18dp-2-1"></use> 
+            <use class="icon-menu" href="./images/icons.svg/symbol-defs.svg#icon-menu_24px"></use></svg></button>
+        </div>
         <ul class="menu-contacts">
           <li class="menu__item-contact">
             <svg class="menu__svg-email">
@@ -50,11 +60,11 @@
   </div>
     <main>
         <ul class="all-button-in-portfolio">
-            <li><button class="button-fultor" type="button">Все</button></li>
-            <li><button  class="button-fultor" type="button">Веб-сайты</button></li>
-            <li><button  class="button-fultor" type="button">Приложения</button></li>
-            <li><button  class="button-fultor" type="button">Дизайн</button></li>
-            <li><button  class="button-fultor" type="button">Маркентинг</button></li>
+            <li class="button-in-portfolio"><button class="button-fultor" type="button">Все</button></li>
+            <li class="button-in-portfolio"><button  class="button-fultor" type="button">Веб-сайты</button></li>
+            <li class="button-in-portfolio"><button  class="button-fultor" type="button">Приложения</button></li>
+            <li class="button-in-portfolio"><button  class="button-fultor" type="button">Дизайн</button></li>
+            <li class="button-in-portfolio"><button  class="button-fultor" type="button">Маркентинг</button></li>
         </ul>
         <article class="buy-product">
             <div class="container">

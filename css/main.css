@@ -337,6 +337,20 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .button-in-portfolio {
+    width: 450px;
+  }
+  .all-button-in-portfolio {
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   .header {
     margin-left: auto;
     margin-right: auto;
@@ -848,7 +862,6 @@
   }
   .contact-in-modal {
     text-align: start;
-    margin-top: auto;
   }
   .contact-in-modal > li {
     width: -webkit-max-content;
@@ -858,6 +871,17 @@
   }
   .contact-in-modal > li:not(:last-child) {
     margin-bottom: 30px;
+  }
+  .mobila {
+    margin-top: 300px;
+  }
+  .mobila-modail__menu {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
   }
   .backdrop-phone-link__p:hover {
     color: #2196F3;
