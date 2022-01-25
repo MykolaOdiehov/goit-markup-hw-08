@@ -3,7 +3,7 @@
 /*scale under text*/
 /*button hover*/
 /*button*/
-@media (min-width: 0px) and (max-width: 480px) {
+@media (min-width: 0px) and (max-width: 768px) {
   button {
     border: none;
   }
@@ -283,7 +283,15 @@
             justify-content: space-between;
     min-height: 80px;
   }
+  .address {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+  }
   .webstudio-footor {
+    margin-right: auto;
     margin-left: auto;
     width: -webkit-max-content;
     width: -moz-max-content;
@@ -314,8 +322,37 @@
     font-weight: bold;
     font-size: 26px;
   }
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) and (min-width: 480px) {
+  .container {
+    width: 480px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
   .item-our-clients {
-    width: 160px;
+    width: calc(100% - 230px);
+    border: 1px solid #AFB1B8;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 10px;
   }
   .nav {
     width: auto;
@@ -655,7 +692,6 @@
   .menu__link-in-footer-adres {
     text-decoration: none;
     color: #ffffff;
-    margin-right: 50px;
     font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
@@ -666,7 +702,6 @@
   .menu__link-in-footer {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
-    margin-right: 50px;
     font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
@@ -789,7 +824,7 @@
   }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 768px) {
   button {
     border: none;
   }
