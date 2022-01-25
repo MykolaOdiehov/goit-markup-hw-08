@@ -819,13 +819,94 @@
     letter-spacing: 0.03em;
     color: #757575;
   }
-  .close {
-    width: 15px;
-    height: 15px;
+  a {
+    text-decoration: none;
   }
   .backdrop-phone__div-close {
-    width: 15px;
-    height: 15px;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: auto;
+    top: 10px;
+  }
+  .close {
+    width: 40px;
+    height: 40px;
+  }
+  .backdrop-phone-link__p {
+    text-align: start;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    letter-spacing: 0.02em;
+    color: #212121;
+  }
+  .contact-in-modal {
+    text-align: start;
+    margin-top: auto;
+  }
+  .contact-in-modal > li {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin-left: 40px;
+  }
+  .contact-in-modal > li:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .backdrop-phone-link__p:hover {
+    color: #2196F3;
+  }
+  .link-phone {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    /* identical to box height */
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+  }
+  .link-email {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .mobila-modail__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .mobila-modail__menu > li:not(:first-child) {
+    border-left: 1px solid rgba(33, 33, 33, 0.2);
+  }
+  .item-menu__link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 10px;
+    letter-spacing: 0.02em;
+    margin-right: 10px;
+    color: #2196F3;
   }
 }
 
