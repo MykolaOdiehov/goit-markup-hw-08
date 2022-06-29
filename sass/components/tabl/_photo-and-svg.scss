@@ -1,90 +1,107 @@
 /*header*/
-.menu{
-&__svg-email{
-    width:16px ;
-    height: 12px;
+.menu {
+    &__svg-email {
+        width: 16px;
+        height: 12px;
+    }
+
+    &__svg-phone {
+        width: 10px;
+        height: 16px;
+        align-items: center;
+    }
 }
-&__svg-phone{
-    width:10px ;
-    height: 16px;
-    align-items: center;
+
+.item {
+    &__svg-photo {
+        height: 65px;
+        width: 70px;
+        margin: 25px 102px;
+    }
+
+    &-our-activities {
+        position: relative;
+    }
+
+    &-team-svg__svg-photo {
+        height: 20px;
+        width: 20px;
+        margin: 12px 12px;
+    }
+
+    &-team-svg {
+        margin-left: 10px;
+        fill: #AFB1B8;
+        border-radius: 360px;
+        cursor: pointer;
+    }
+
+    &-team__menu {
+        display: flex;
+        padding-bottom: 30px;
+    }
+
+    &-our-clients__svg-photo {
+        width: 106px;
+        height: 60px;
+        fill: #afb1b8;
+        margin: 16px 32px;
+    }
 }
-}
-.item{
-&__svg-photo{
-    height:65px ;
-    width: 70px;
-    margin: 25px 102px ;
-}
-&-our-activities{
-    position: relative;
-}
-&-team-svg__svg-photo{
-    height: 20px;
-    width: 20px;
-    margin: 12px 12px;
-}
-&-team-svg{
-    margin-left:10px ;
-    fill:#AFB1B8 ;
-    border-radius: 360px;
-    cursor: pointer;
-}
-&-team__menu{
-    display: flex; 
-    padding-bottom:30px ;
-}
-&-our-clients__svg-photo{
-    width: 106px;
-    height: 60px;
-    fill: #afb1b8; 
-    margin:16px 32px ;
-}
-}
-.our-clients__menu{
+
+.our-clients__menu {
     display: flex;
     padding-bottom: 94px;
 }
-.svg{
-&-in-footer-in-container:not(:first-child){margin-left: 10px;}
-&-photo-in-footer{
-    height: 20px;
-    width: 20px;
-    margin: 12px 12px;
-    fill: #fff;
-    cursor: pointer;
+
+.svg {
+    &-in-footer-in-container:not(:first-child) {
+        margin-left: 10px;
     }
-&-photo-for-subcrib{
-    width: 24px;
-    height: 24px;
-    margin-left:10px;
-    margin-top: 0px;
-    display: inline;
+
+    &-photo-in-footer {
+        height: 20px;
+        width: 20px;
+        margin: 12px 12px;
+        fill: #fff;
+        cursor: pointer;
+    }
+
+    &-photo-for-subcrib {
+        width: 24px;
+        height: 24px;
+        margin-left: 10px;
+        margin-top: 0px;
+        display: inline;
+    }
+
+    &-photo-in-form {
+        height: 18px;
+        width: 18px;
+        position: absolute;
+        margin: 12px -430px;
+    }
 }
-&-photo-in-form{
-    height: 18px;
-    width: 18px;
-    position: absolute;
-    margin: 12px -430px;
-}
-}
-.kerstic{
+
+.kerstic {
     height: 18px;
     width: 18px;
     position: absolute;
     margin: 6px 6px;
     background: #FFFFFF;
 }
-.icon{
+
+.icon {
     border: 2px solid #2a2a2a;
     width: 16px;
     height: 15px;
     border-radius: 4px;
     fill: #afb1b8;
- }
- .input:checked+.icon{
+}
+
+.input:checked+.icon {
     width: 16px;
     height: 15px;
-    border-color:#2196F3 ;
+    border-color: #2196F3;
     background-color: #2196F3;
- }
+}

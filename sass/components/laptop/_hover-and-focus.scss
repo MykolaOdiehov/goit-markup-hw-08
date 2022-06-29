@@ -1,80 +1,100 @@
-.menu{
-&__item-contact:hover{
-    fill: #2196f3;
-    & > a{
-        color:#2196f3;
+.menu {
+    &__item-contact:hover {
+        fill: #2196f3;
+
+        &>a {
+            color: #2196f3;
         }
     }
-&__link:hover  {
-    color: #2196f3;
-    text-decoration: none;
+
+    &__link:hover {
+        color: #2196f3;
+        text-decoration: none;
     }
-&__link:hover::after{
+
+    &__link:hover::after {
         transform: scaleX(1);
     }
-&:hover {
-    background: #2196f3;
-}    
+
+    &:hover {
+        background: #2196f3;
+    }
 }
+
 .logo__button:hover {
     background: #188ce8;
 }
-.buy-product_list:hover{
+
+.buy-product_list:hover {
     border-radius: 4px;
     cursor: pointer;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.menu__link-in-footer:hover{
+
+.menu__link-in-footer:hover {
     color: #2196f3;
 }
-.item-our-clients:hover .item-our-clients__svg-photo{
+
+.item-our-clients:hover .item-our-clients__svg-photo {
     fill: #2196F3;
     cursor: pointer;
 }
-.item-our-clients:hover{
+
+.item-our-clients:hover {
     border: 1px solid #2196F3;
     cursor: pointer;
 }
+
 .svg-in-footer-in-container:hover {
     background: #2196F3;
 }
-.item-team-svg:hover{
+
+.item-team-svg:hover {
     fill: #E3F2FE;
     background: #2196F3;
 }
-.buy-product_list:hover .modal-winter
-{ transform: translateY(0);}
-.kerstic:hover{
+
+.buy-product_list:hover .modal-winter {
+    transform: translateY(0);
+}
+
+.kerstic:hover {
     fill: #3DA3F5;
 }
+
 .input-in-footer:hover,
-.input-in-footer:focus{
+.input-in-footer:focus {
     border-color: #2196F3;
 }
+
 .input-in-footer:hover+.svg-photo-in-form,
-.input-in-footer:focus+.svg-photo-in-form
-{
+.input-in-footer:focus+.svg-photo-in-form {
     fill: #2196F3;
     outline: none;
 }
-.buttom-in-form:hover{
+
+.buttom-in-form:hover {
     background: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+
 .input-in-footer:not(:placeholder-shown):invalid {
 
     border-color: red;
-    }
-    .input-in-footer:not(:placeholder-shown):invalid+.svg-photo-in-form {
-    
-        fill: red;
-        }
-    .input-in-footer:not(:placeholder-shown):valid {
-    
-    border-color:green;
-    }
-    .input-in-footer:not(:placeholder-shown):valid+.svg-photo-in-form {
-    
-        fill: green;
-    }
+}
+
+.input-in-footer:not(:placeholder-shown):invalid+.svg-photo-in-form {
+
+    fill: red;
+}
+
+.input-in-footer:not(:placeholder-shown):valid {
+
+    border-color: green;
+}
+
+.input-in-footer:not(:placeholder-shown):valid+.svg-photo-in-form {
+
+    fill: green;
+}

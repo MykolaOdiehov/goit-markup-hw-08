@@ -1,8 +1,10 @@
-button{border: none;}
+button {
+    border: none;
+}
 
 
-.button-for-subscrib{
-  
+.button-for-subscrib {
+
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -11,45 +13,49 @@ button{border: none;}
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    
-    margin-left:12px;
+
+    margin-left: 12px;
 }
 
 
 
-.buttom{
-    &-in-form{
+.buttom {
+    &-in-form {
         width: 200px;
         height: 50px;
         background: #2196F3;
         box-shadow: 0px 4px 4px rgba(143, 133, 133, 0.15);
         border-radius: 4px;
-        
-        }
-    &-in-form:hover{
+
+    }
+
+    &-in-form:hover {
         background: #188CE8;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
-        }
-    margin-left:27% ;
-    padding: 0px 0px 40px 0px; 
-    
+    }
+
+    margin-left:27%;
+    padding: 0px 0px 40px 0px;
+
 }
-.text-for-subscrib{
+
+.text-for-subscrib {
     display: inline;
-    
+
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
-    
-    
+
+
     letter-spacing: 0.06em;
-    
+
     color: #FFFFFF;
-    
+
 }
+
 .logo__button {
     background: #2196f3;
     cursor: pointer;
@@ -59,6 +65,7 @@ button{border: none;}
     border-radius: 4px;
     padding: 10px 32px;
 }
+
 .button-fultor {
     font-family: Roboto;
     font-style: normal;
@@ -73,10 +80,12 @@ button{border: none;}
     height: 40px;
     color: #212121;
 }
+
 .button-fultor:focus {
     background: #188ce8;
     color: #ffff;
 }
+
 .button-fultor:hover {
     background: #2196F3;
     color: #ffff;
